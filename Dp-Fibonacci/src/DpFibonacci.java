@@ -22,6 +22,6 @@ public class DpFibonacci {
 		FibonacciCache.put(1, 1);
 		FibonacciCache.put(2, 1);
 
-		System.out.println(Fibonacci(10));
+		System.out.println("Fib Result:" + Fibonacci(10));
 	}
 }
